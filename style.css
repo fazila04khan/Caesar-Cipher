@@ -1,0 +1,107 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #e1fadc;
+  color: #05472A;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #05472A;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+label, select, input, textarea {
+  color: #05472A;
+  font-size: 18px;
+}
+
+select, input[type=number], textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  background: #246b45;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1c5737;
+}
+
+.copy-btn {
+  background: #246b45;
+  font-size: 16px;
+  margin-top: 18px;
+  align-self: center;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.copy-btn:hover {
+  background: #1c5737;
+}
+
+.copy-btn.copied {
+  background: #9F2B68;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result {
+  background-color: #fff6f0;
+}
+
+.char-count {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+  text-align: right;
+  width: 100%;
+}
+
+.textarea-container {
+  position: relative;
+  width: 100%;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  align-self: center;
+}
