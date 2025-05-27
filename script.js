@@ -74,4 +74,10 @@ async function copyToClipboard() {
 
 document.addEventListener('DOMContentLoaded', function () {
   updateCounts();
+  
+  // Set footer year
+  const yearSpan = document.getElementById('footerYear');
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
 });
